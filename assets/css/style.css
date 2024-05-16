@@ -1,0 +1,120 @@
+/**reset**/
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+/**variaveis**/
+:root{
+    --color-nao-metais: #4603b1;
+    --color-gases-nobres: #0277d0;
+    --color-metais-alcalinos: #E20808;
+    --color-metais-alcalinos-terrosos: #F94141;
+    --color-semimetais: #43aa8b;
+    --color-halogenios: #87b465;
+    --color-outros-metais: #4d908e;
+    --color-metais-transicao: #2a796c;
+    --color-lantanideos: #277da1;
+    --color-actinidios: #79456c;
+    --color-text: #fff;
+}
+.elemento{
+    width: 100px;
+    height: 100px;
+    margin: 7px;
+    color: var(--color-text);
+}
+.naoMetais{
+    background-color: var(--color-nao-metais);
+}
+.gasesNobres{
+    background-color: var(--color-gases-nobres);
+}
+.metaisalcalinos{
+    background-color: var(--color-metais-alcalinos);
+}
+.metaisalcalinosterrosos{
+    background-color: var(--color-metais-alcalinos-terrosos);
+}
+.semimetais{
+    background-color: var(--color-semimetais);
+}
+.halogenios{
+    background-color: var(--color-halogenios);
+}
+.outrosmetais{
+    background-color: var(--color-outros-metais);
+}
+.metaistransição{
+    background-color: var(--color-metais-transicao);
+}
+.latanideos{
+    background-color: var(--color-lantanideos);
+}
+.actinidios{
+    background-color: var(--color-actinidios);
+}
+.estilo{
+    border-radius: 7px;
+    padding: 10%;
+}
+.right{
+    text-align: right;
+}
+ 
+/*desktop*/
+@media screen and(min-width: 600px ){
+    .linha01{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.linha01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.linha02{
+    display: flex;
+    justify-content: space-between;
+}
+.linha21{
+    display: flex;
+}
+.linha22{
+    display: flex;
+}
+.linha03{
+    display: flex;
+    justify-content: space-between;
+}
+.linha31{
+    display: flex;
+}
+.linha32{
+    display: flex;
+}
+.linha04{
+    display: flex;
+    flex-direction: row;
+}
+.linha05{
+    display: flex;
+    flex-direction: row;
+}
+.linha06{
+    display: flex;
+    flex-direction: row;
+}
+.linha07{
+    display: flex;
+    flex-direction: row;
+}
+.linha08{
+    display: flex;
+    justify-content: flex-end;
+}
+.linha09{
+    display: flex;
+    justify-content: flex-end;
+}
